@@ -29,12 +29,15 @@ common_sports(current_sports,favorite_sports)
 
 
 
-
-
 # method name: #alphabetical_list
 # parameter: games (an array)
 # return value: games, alphabetically sorted and duplicates removed
 # hint: chain Array#uniq and Array#sort together
+def alphabetical_list(games)
+  puts games.uniq.sort
+end
+games=["badminton","cricket","hockey","football"]
+alphabetical_list(games)
 
 
 # method name: #lucky_number
